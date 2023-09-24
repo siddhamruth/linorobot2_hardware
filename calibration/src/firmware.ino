@@ -22,6 +22,11 @@
 
 #define SAMPLE_TIME 10 //s
 
+//M1_10.6  1676-encoder data per revolution
+//M2_10.75 1682-encoder data per revolution
+//M3_10.4  1687-encoder data per revolution
+//M4_11.25 1620-encoder data per revolution
+
 Encoder motor1_encoder(MOTOR1_ENCODER_A, MOTOR1_ENCODER_B, COUNTS_PER_REV1, MOTOR1_ENCODER_INV);
 Encoder motor2_encoder(MOTOR2_ENCODER_A, MOTOR2_ENCODER_B, COUNTS_PER_REV2, MOTOR2_ENCODER_INV);
 Encoder motor3_encoder(MOTOR3_ENCODER_A, MOTOR3_ENCODER_B, COUNTS_PER_REV3, MOTOR3_ENCODER_INV);
